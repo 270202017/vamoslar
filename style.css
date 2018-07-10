@@ -28,13 +28,9 @@ h2{
     font-size: 30px;
 }
 .d1{
-    /* width: 100%;
-    size:100%;
-    height: 100%; */
-    position: absolute;
+        position: absolute;
     top: 100px;
-     /*responsividade p desktop */
-}
+   }
    
 
 .d2{
@@ -52,6 +48,27 @@ h2{
     margin:36px;
 
 }
+
+
+.divlateral2{
+width: 104px;
+height: 206px;
+}
+.lateral2{
+    width: 104px;
+height: 206px;
+
+   
+
+}
+
+#local .icon {
+  width: 134px;
+  height: 134px;
+      margin-right: 28px;
+      margin-top: 75px;
+}
+
 #local p{
     color: #69665D;
     font-weight: 500;
@@ -60,24 +77,26 @@ h2{
 }
 #local{
     background-color: beige;
+    display: flex;
 }
 #dividir img{
     margin:0;
     position: relative;   
     width: 100%;
-    height: 200px;
+    height: 208px;
     filter: opacity(60%);
 }
 #dividir .d3 h3{
-    color:rgb(87, 84, 75);
+    color:#597CEC;
     padding: 0 36px;
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     margin-top:0;
 }
 #dividir .d3{
+    
     position: absolute;
-    top: 620px;
+    top: 688px;
 }
 #diversidade{
     display: flex;
@@ -91,6 +110,7 @@ h2{
 #diversidade img{
     width: 50%;
     height: 200px;
+    margin-top: 5px;
 }
 #cadastro{
     display: flex;
@@ -101,8 +121,9 @@ h2{
 }
 #cadastro .lateral{
     background-color:#ffad08;
-    width: 20%;
-    height: 200px;
+    width: 104px;
+    height: 249px;
+    display:inline-flex;
     
 }
 #cadastro h4{
@@ -114,13 +135,13 @@ h2{
 #cadastro button{
     background-color: #597CEC;
     color: white;
-    border-radius: 20%;
+    border-radius: 10%;
    border: none;
-   width: 40%;
-   height: 40px;
+   width: 302px;
+   height: 56px;
    cursor: pointer;
    font-size: 28px;
-    margin-left: 30%;
+margin-left: -30px;
 }
 /* @media(min-width:768px){
     .img1{
